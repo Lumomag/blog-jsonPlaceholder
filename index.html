@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog JSON</title>
+</head>
+<body>
+  <h1>Blog Fake JSON</h1>
+
+  <fieldset>
+    <legend>Inserir um novo post</legend>
+
+    <div>
+      <input type="text" id="titleField" placeholder="Título do post">
+    </div>
+    <div>
+      <textarea name="bodyField" id="bodyField" cols="30" rows="4" style="resize: none;"></textarea>
+    </div>
+    <div>
+      <button id="insertButton">Postar</button>
+    </div>
+  </fieldset>
+
+  <div class="posts"></div>
+  <script src="script.js"></script>
+</body>
+</html>
